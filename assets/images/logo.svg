@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Outer ring nodes -->
+  <circle cx="24" cy="6"  r="3.5" fill="#2563EB"/>
+  <circle cx="42" cy="17" r="3.5" fill="#0EA5A4"/>
+  <circle cx="42" cy="31" r="3.5" fill="#2563EB"/>
+  <circle cx="24" cy="42" r="3.5" fill="#0EA5A4"/>
+  <circle cx="6"  cy="31" r="3.5" fill="#2563EB"/>
+  <circle cx="6"  cy="17" r="3.5" fill="#0EA5A4"/>
+  <!-- Centre node -->
+  <circle cx="24" cy="24" r="5" fill="#0B1F33"/>
+  <circle cx="24" cy="24" r="3" fill="#2563EB"/>
+  <!-- Spokes -->
+  <line x1="24" y1="9.5"  x2="24" y2="19"  stroke="#2563EB" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="38.9" y1="18.8" x2="28.6" y2="22.1" stroke="#0EA5A4" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="38.9" y1="29.2" x2="28.6" y2="25.9" stroke="#2563EB" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="24" y1="38.5" x2="24" y2="29"  stroke="#0EA5A4" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="9.1"  y1="29.2" x2="19.4" y2="25.9" stroke="#2563EB" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="9.1"  y1="18.8" x2="19.4" y2="22.1" stroke="#0EA5A4" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- Outer ring arcs (partial) -->
+  <circle cx="24" cy="24" r="18" stroke="#0B1F33" stroke-width="0.8" stroke-dasharray="3 4" fill="none" opacity="0.3"/>
+</svg>

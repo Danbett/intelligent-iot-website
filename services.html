@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IoT Services — Intelligent IoT</title>
+  <meta name="description" content="Comprehensive enterprise IoT services — fleet telematics, agriculture, energy, industrial, smart buildings, healthcare, logistics, water, and custom platform development.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .service-section{padding:var(--s16) 0;border-bottom:1px solid var(--border)}
+    .service-section:last-child{border-bottom:none}
+    .service-section__header{display:flex;align-items:flex-start;gap:var(--s6);margin-bottom:var(--s8)}
+    .service-section__icon{width:64px;height:64px;border-radius:var(--radius-lg);flex-shrink:0;
+      display:flex;align-items:center;justify-content:center}
+    .feature-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--s3)}
+    .feature-item{display:flex;align-items:flex-start;gap:var(--s2);font-size:var(--f-sm);color:var(--text-2);padding:var(--s2)}
+    .feature-item svg{width:16px;height:16px;color:var(--teal);flex-shrink:0;margin-top:2px}
+  </style>
+</head>
+<body>
+<nav class="nav" id="main-nav">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><img src="assets/images/logo.svg" alt="Intelligent IoT" width="36" height="36"><span class="nav__logo-text">Intelligent <span>IoT</span></span></a>
+      <div class="nav__links">
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="case-studies.html" class="nav__link">Case Studies</a>
+        <a href="pricing.html" class="nav__link">Pricing</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="blog.html" class="nav__link">Insights</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+      </div>
+      <div class="nav__actions">
+        <a href="http://84.247.133.39:5173" target="_blank" rel="noopener" class="nav__portal">Client Portal</a>
+        <a href="demo.html" class="nav__cta">Request Demo</a>
+        <button class="nav__theme" id="theme-toggle" aria-label="Toggle dark mode"></button>
+        <button class="nav__hamburger" id="nav-hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="nav__mobile" id="nav-mobile"><button class="nav__close" id="nav-close">✕</button><a href="services.html" class="nav__mobile-link">Services</a><a href="case-studies.html" class="nav__mobile-link">Case Studies</a><a href="pricing.html" class="nav__mobile-link">Pricing</a><a href="about.html" class="nav__mobile-link">About</a><a href="blog.html" class="nav__mobile-link">Insights</a><a href="contact.html" class="nav__mobile-link">Contact</a><a href="demo.html" class="btn btn--primary mt-6">Request Demo →</a></div>
+
+<header class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span>›</span><span style="color:rgba(255,255,255,.9)">Services</span></nav>
+    <span class="tag">9 Service Areas</span>
+    <h1 class="h1" style="max-width:700px;margin:var(--s4) auto">IoT Solutions for Every Industry</h1>
+    <p>From sensor to dashboard — we design, deploy, and manage complete IoT systems that deliver measurable results across every sector.</p>
+  </div>
+</header>
+
+<!-- QUICK JUMP NAV -->
+<div style="background:var(--surface);border-bottom:1px solid var(--border);padding:var(--s4) 0;position:sticky;top:64px;z-index:100">
+  <div class="container" style="overflow-x:auto;white-space:nowrap">
+    <div style="display:inline-flex;gap:var(--s2)">
+      <a href="#fleet" class="btn btn--sm btn--outline-blue">Fleet</a>
+      <a href="#agriculture" class="btn btn--sm btn--outline-blue">Agriculture</a>
+      <a href="#energy" class="btn btn--sm btn--outline-blue">Energy</a>
+      <a href="#industrial" class="btn btn--sm btn--outline-blue">Industrial</a>
+      <a href="#buildings" class="btn btn--sm btn--outline-blue">Buildings</a>
+      <a href="#healthcare" class="btn btn--sm btn--outline-blue">Healthcare</a>
+      <a href="#logistics" class="btn btn--sm btn--outline-blue">Logistics</a>
+      <a href="#water" class="btn btn--sm btn--outline-blue">Water</a>
+      <a href="#platform" class="btn btn--sm btn--outline-blue">Custom Dev</a>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+
+    <div class="service-section reveal" id="fleet">
+      <div class="service-section__header">
+        <div class="service-section__icon" style="background:rgba(37,99,235,.1)"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+        <div>
+          <span class="tag">Telematics &amp; Fleet</span>
+          <h2 class="h3">Complete Fleet Intelligence</h2>
+          <p style="color:var(--text-2);line-height:1.7;max-width:680px">Real-time visibility, cost reduction, and safety improvement for fleets from 5 to 5,000 vehicles — trucks, buses, motorcycles, EVs, and specialised equipment.</p>
+        </div>
+      </div>
+      <div class="feature-list">
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Enterprise EV Fleet Telematics</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Real-time GPS Vehicle Tracking</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Driver Behaviour Monitoring &amp; Scoring</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Fuel Consumption &amp; Anomaly Detection</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Predictive Maintenance Alerts</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Fleet Operations Dashboard</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Geofencing &amp; Route Compliance</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Mobile App for Drivers &amp; Managers</div>
+      </div>
+    </div>
+
+    <div class="service-section reveal" id="agriculture">
+      <div class="service-section__header">
+        <div class="service-section__icon" style="background:rgba(5,150,105,.1)"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M12 22V12m0 0C12 7 7 4 2 4c0 5 3 9 10 8m0 0c0-5 5-8 10-8-1 5-4 9-10 8"/></svg></div>
+        <div>
+          <span class="tag">Agriculture IoT</span>
+          <h2 class="h3">Precision Agriculture for Africa</h2>
+          <p style="color:var(--text-2);line-height:1.7;max-width:680px">Data-driven farming solutions for tea, coffee, horticulture, grains, and livestock — designed for East African field conditions and connectivity environments.</p>
+        </div>
+      </div>
+      <div class="feature-list">
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Soil Moisture &amp; Nutrient Sensors</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Automated Weather Station Networks</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Irrigation Automation &amp; Scheduling</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Livestock Tracking &amp; Health Monitoring</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Cold Chain Monitoring for Produce</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Crop Disease Early Warning Systems</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Precision Farming Dashboards</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Crop Yield Analytics &amp; Forecasting</div>
+      </div>
+    </div>
+
+    <div class="service-section reveal" id="energy">
+      <div class="service-section__header">
+        <div class="service-section__icon" style="background:rgba(245,158,11,.1)"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+        <div>
+          <span class="tag">Energy &amp; Utilities</span>
+          <h2 class="h3">Smart Energy Management</h2>
+          <p style="color:var(--text-2);line-height:1.7;max-width:680px">Cut energy costs, improve reliability, and gain complete visibility across your electricity, solar, and water infrastructure — from single sites to multi-utility networks.</p>
+        </div>
+      </div>
+      <div class="feature-list">
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Smart Electricity Metering (Prepaid)</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Solar System Monitoring &amp; Fault Detection</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Generator Remote Monitoring &amp; Auto-Switching</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Mini-Grid Management Platforms</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Water Flow &amp; Quality Monitoring</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Energy Consumption Analytics</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Battery Bank Monitoring (BESS)</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>SCADA Integration</div>
+      </div>
+    </div>
+
+    <div class="service-section reveal" id="industrial">
+      <div class="service-section__header">
+        <div class="service-section__icon" style="background:rgba(100,116,139,.1)"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#475569" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+        <div>
+          <span class="tag">Industrial &amp; Manufacturing</span>
+          <h2 class="h3">Industry 4.0 for African Manufacturing</h2>
+          <p style="color:var(--text-2);line-height:1.7;max-width:680px">Connect your factory floor to the cloud — monitor machine health, prevent breakdowns, track production, and meet environmental compliance requirements with real-time IoT data.</p>
+        </div>
+      </div>
+      <div class="feature-list">
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Machine Health Monitoring (Vibration &amp; Temp)</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Production Line Tracking &amp; OEE</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Predictive Maintenance Systems</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Asset Tracking in Factories &amp; Warehouses</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Environmental Compliance (Emissions &amp; Waste)</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Gas Detection &amp; Safety System Integration</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>MES Integration &amp; ERP Connectivity</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Cold Storage &amp; Temperature Control</div>
+      </div>
+    </div>
+
+    <div class="service-section reveal" id="buildings">
+      <div class="service-section__header">
+        <div class="service-section__icon" style="background:rgba(239,68,68,.1)"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+        <div>
+          <span class="tag">Smart Buildings &amp; Facilities</span>
+          <h2 class="h3">Intelligent Facilities Management</h2>
+          <p style="color:var(--text-2);line-height:1.7;max-width:680px">Unify your building's security, HVAC, water, and energy systems into one dashboard — reducing costs and improving occupant experience.</p>
+        </div>
+      </div>
+      <div class="feature-list">
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Access Control &amp; Security Systems</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>HVAC Monitoring &amp; Automation</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Water Tank Level Monitoring &amp; Auto-Pump</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Fire &amp; Smoke Detection Systems</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Occupancy &amp; Space Utilisation Analytics</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Remote Facility Management Dashboard</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Energy Sub-Metering per Floor/Zone</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Lift &amp; Escalator Monitoring</div>
+      </div>
+    </div>
+
+    <div class="service-section reveal" id="healthcare">
+      <div class="service-section__header">
+        <div class="service-section__icon" style="background:rgba(14,165,164,.1)"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0EA5A4" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+        <div>
+          <span class="tag">Healthcare IoT</span>
+          <h2 class="h3">Critical Healthcare Monitoring</h2>
+          <p style="color:var(--text-2);line-height:1.7;max-width:680px">Protecting lives through real-time monitoring of medical cold chains, facility conditions, and equipment — compliant with WHO and national health authority standards.</p>
+        </div>
+      </div>
+      <div class="feature-list">
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Cold Chain Monitoring for Vaccines &amp; Medicines</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Medical Equipment Tracking</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Patient Environment Monitoring (Temp &amp; Humidity)</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Pharmacy Refrigeration Alerts</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Remote Health Facility Monitoring</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>WHO-Compliant Temperature Logging &amp; Reports</div>
+      </div>
+    </div>
+
+    <div class="service-section reveal" id="logistics">
+      <div class="service-section__header">
+        <div class="service-section__icon" style="background:rgba(37,99,235,.08)"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <div>
+          <span class="tag">Logistics &amp; Supply Chain</span>
+          <h2 class="h3">End-to-End Supply Chain Visibility</h2>
+          <p style="color:var(--text-2);line-height:1.7;max-width:680px">Track every asset, shipment, and temperature-sensitive cargo from origin to delivery — with real-time data at every handoff point.</p>
+        </div>
+      </div>
+      <div class="feature-list">
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Asset &amp; Cargo Tracking</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Cold Chain Temperature Logging</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Last-Mile Delivery Tracking</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Warehouse Management Sensors</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Container &amp; Shipment Monitoring</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Customer Delivery Notifications</div>
+      </div>
+    </div>
+
+    <div class="service-section reveal" id="water">
+      <div class="service-section__header">
+        <div class="service-section__icon" style="background:rgba(99,102,241,.1)"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg></div>
+        <div>
+          <span class="tag">Water &amp; Environment</span>
+          <h2 class="h3">Water Resource &amp; Environmental Intelligence</h2>
+          <p style="color:var(--text-2);line-height:1.7;max-width:680px">Monitor, protect, and optimise Africa's most precious resource — from rural boreholes to urban water networks and environmental compliance monitoring.</p>
+        </div>
+      </div>
+      <div class="feature-list">
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Borehole &amp; Water Pump Monitoring</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>River &amp; Reservoir Level Monitoring</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Water Quality Sensors (pH, Turbidity, Chlorine)</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Flood Early Warning Systems</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Air Quality Monitoring Networks</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Waste Management Tracking</div>
+      </div>
+    </div>
+
+    <div class="service-section reveal" id="platform">
+      <div class="service-section__header">
+        <div class="service-section__icon" style="background:rgba(11,31,51,.08)"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0B1F33" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <div>
+          <span class="tag">Custom Platform Development</span>
+          <h2 class="h3">Build Your Own IoT Platform</h2>
+          <p style="color:var(--text-2);line-height:1.7;max-width:680px">Need something bespoke? We design and build custom IoT platforms from the ground up — white-label solutions, mobile apps, API integrations, and cloud infrastructure tailored to your exact requirements.</p>
+        </div>
+      </div>
+      <div class="feature-list">
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>IoT Dashboard Development (White-Label)</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Custom Sensor Integration</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Mobile App Development for IoT</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>API &amp; Data Pipeline Development</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Cloud Infrastructure for IoT</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Legacy System IoT Integration</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>MQTT / LoRaWAN / Modbus Integration</div>
+        <div class="feature-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>AI &amp; ML Analytics for IoT Data</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Not Sure Which Solution Fits?</h2>
+    <p>Book a free 30-minute discovery call. We'll listen to your challenges and recommend the right approach — no sales pressure.</p>
+    <div class="cta-band__actions">
+      <a href="contact.html" class="btn btn--teal btn--lg">Book a Discovery Call</a>
+      <a href="demo.html" class="btn btn--outline btn--lg">See the Platform</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand"><a href="index.html" class="footer__logo"><img src="assets/images/logo.svg" alt="" width="32" height="32" aria-hidden="true"><span class="footer__logo-text">Intelligent <span>IoT</span></span></a><p class="footer__desc">Enterprise IoT solutions built for Africa's most ambitious organisations.</p><div class="footer__contact"><a href="mailto:info@intelligenceiot.com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>info@intelligenceiot.com</a><a href="tel:+254727062211"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.48 2 2 0 0 1 3.58 1.27h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.09A16 16 0 0 0 14 15.15l1.18-1.18a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+254 727 062 211</a></div></div>
+      <div><h4 class="footer__heading">Solutions</h4><a href="#fleet" class="footer__link">Fleet Telematics</a><a href="#agriculture" class="footer__link">Agriculture IoT</a><a href="#energy" class="footer__link">Energy &amp; Utilities</a><a href="#industrial" class="footer__link">Industrial IoT</a><a href="#buildings" class="footer__link">Smart Buildings</a></div>
+      <div><h4 class="footer__heading">Company</h4><a href="about.html" class="footer__link">About Us</a><a href="case-studies.html" class="footer__link">Case Studies</a><a href="pricing.html" class="footer__link">Pricing</a><a href="contact.html" class="footer__link">Contact</a></div>
+      <div><h4 class="footer__heading">Platform</h4><a href="http://84.247.133.39:5173" target="_blank" rel="noopener" class="footer__link">Client Portal</a><a href="demo.html" class="footer__link">Live Demo</a><a href="privacy.html" class="footer__link">Privacy Policy</a></div>
+    </div>
+    <div class="footer__bottom"><p class="footer__copy">© 2025 Intelligent IoT. All rights reserved. · Kenya</p></div>
+  </div>
+</footer>
+<a href="https://wa.me/254727062211" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+<div class="cookie" id="cookie-banner"><div class="cookie__inner"><p>We use cookies. See our <a href="privacy.html">Privacy Policy</a>.</p><div class="cookie__actions"><button class="cookie__accept" id="cookie-accept">Accept</button><button class="cookie__decline" id="cookie-decline">Decline</button></div></div></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Intelligent IoT — Enterprise IoT Solutions for East Africa</title>
+  <meta name="description" content="Intelligent IoT delivers enterprise-grade IoT solutions across East Africa — fleet telematics, smart agriculture, energy management, and custom automation platforms.">
+  <meta name="keywords" content="IoT East Africa, fleet telematics Kenya, smart agriculture IoT, industrial IoT, Nairobi IoT company">
+  <meta property="og:title" content="Intelligent IoT — Connecting Things. Creating Intelligence.">
+  <meta property="og:description" content="Enterprise IoT solutions built for Africa's most ambitious organisations.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://intelligenceiot.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://intelligenceiot.com">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Google Analytics — replace GA_MEASUREMENT_ID -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script> -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Intelligent IoT","url":"https://intelligenceiot.com","email":"info@intelligenceiot.com","telephone":"+254727062211","address":{"@type":"PostalAddress","addressCountry":"KE"},"description":"Enterprise IoT solutions for East Africa"}
+  </script>
+</head>
+<body>
+
+<!-- ── NAVIGATION ─────────────────────────────────────────────── -->
+<nav class="nav" id="main-nav" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Intelligent IoT home">
+        <img src="assets/images/logo.svg" alt="Intelligent IoT logo" width="36" height="36">
+        <span class="nav__logo-text">Intelligent <span>IoT</span></span>
+      </a>
+      <div class="nav__links" role="menubar">
+        <a href="services.html" class="nav__link" role="menuitem">Services</a>
+        <a href="case-studies.html" class="nav__link" role="menuitem">Case Studies</a>
+        <a href="pricing.html" class="nav__link" role="menuitem">Pricing</a>
+        <a href="about.html" class="nav__link" role="menuitem">About</a>
+        <a href="blog.html" class="nav__link" role="menuitem">Insights</a>
+        <a href="contact.html" class="nav__link" role="menuitem">Contact</a>
+      </div>
+      <div class="nav__actions">
+        <a href="http://84.247.133.39:5173" target="_blank" rel="noopener" class="nav__portal">Client Portal</a>
+        <a href="demo.html" class="nav__cta">Request Demo</a>
+        <button class="nav__theme" id="theme-toggle" aria-label="Toggle dark mode"></button>
+        <button class="nav__hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ── MOBILE MENU ─────────────────────────────────────────────── -->
+<div class="nav__mobile" id="nav-mobile" role="dialog" aria-label="Mobile navigation">
+  <button class="nav__close" id="nav-close" aria-label="Close menu">✕</button>
+  <a href="services.html" class="nav__mobile-link">Services</a>
+  <a href="case-studies.html" class="nav__mobile-link">Case Studies</a>
+  <a href="pricing.html" class="nav__mobile-link">Pricing</a>
+  <a href="about.html" class="nav__mobile-link">About</a>
+  <a href="blog.html" class="nav__mobile-link">Insights</a>
+  <a href="contact.html" class="nav__mobile-link">Contact</a>
+  <a href="demo.html" class="btn btn--primary mt-6">Request Demo →</a>
+</div>
+
+<!-- ── HERO ───────────────────────────────────────────────────── -->
+<section class="hero" aria-label="Hero section">
+  <canvas class="hero__canvas" id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero__overlay" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero__content">
+      <div class="hero__tag" aria-label="Company status">
+        <span class="hero__tag-dot" aria-hidden="true"></span>
+        Enterprise IoT Platform · East Africa
+      </div>
+      <h1 class="hero__title">
+        Connecting Things.<br>
+        <em>Creating Intelligence.</em>
+      </h1>
+      <p class="hero__sub">
+        Enterprise IoT solutions built for Africa's most ambitious organisations.
+        From fleet telematics to smart agriculture — one ecosystem, infinite possibilities.
+      </p>
+      <div class="hero__actions">
+        <a href="demo.html" class="btn btn--teal btn--lg" data-demo>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          Request a Demo
+        </a>
+        <a href="services.html" class="btn btn--outline btn--lg">
+          Explore Services
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div class="hero__chips" aria-label="Key statistics">
+        <span class="hero__chip"><span class="hero__chip-dot" aria-hidden="true"></span>500+ Connected Devices</span>
+        <span class="hero__chip"><span class="hero__chip-dot" aria-hidden="true"></span>5 Countries Active</span>
+        <span class="hero__chip"><span class="hero__chip-dot" aria-hidden="true"></span>99.7% Platform Uptime</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PARTNERS ────────────────────────────────────────────────── -->
+<div class="partners">
+  <div class="container">
+    <p class="partners__label">Trusted by organisations across East Africa</p>
+    <div class="partners__logos">
+      <span class="partner-logo">Logistics Co.</span>
+      <span class="partner-logo">AgriVentures</span>
+      <span class="partner-logo">SolarGrid EA</span>
+      <span class="partner-logo">PharmaChain</span>
+      <span class="partner-logo">BuildSmart</span>
+      <span class="partner-logo">AquaTrack</span>
+    </div>
+  </div>
+</div>
+
+<!-- ── SERVICES OVERVIEW ───────────────────────────────────────── -->
+<section aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="tag">What We Do</span>
+      <h2 class="h2" id="services-heading">IoT Solutions Across Every Industry</h2>
+      <p>From field sensors to enterprise dashboards — we design, deploy, and manage IoT systems that deliver measurable results.</p>
+    </div>
+    <div class="services-grid">
+      <!-- Fleet -->
+      <article class="service-card reveal reveal-delay-1">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <h3>Telematics &amp; Fleet</h3>
+        <p>Real-time GPS tracking, driver behaviour monitoring, fuel analytics, and predictive maintenance for fleets from 5 to 5,000 vehicles.</p>
+        <a href="services.html#fleet" class="service-card__link">Learn more →</a>
+      </article>
+      <!-- AgriTech -->
+      <article class="service-card reveal reveal-delay-2">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22V12m0 0C12 7 7 4 2 4c0 5 3 9 10 8m0 0c0-5 5-8 10-8-1 5-4 9-10 8"/></svg>
+        </div>
+        <h3>Agriculture IoT</h3>
+        <p>Soil sensors, weather networks, automated irrigation, livestock tracking, and precision farming dashboards for modern agribusiness.</p>
+        <a href="services.html#agriculture" class="service-card__link">Learn more →</a>
+      </article>
+      <!-- Energy -->
+      <article class="service-card reveal reveal-delay-3">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <h3>Energy &amp; Utilities</h3>
+        <p>Smart metering, solar monitoring, generator auto-switching, mini-grid management, and energy analytics — reducing costs by up to 35%.</p>
+        <a href="services.html#energy" class="service-card__link">Learn more →</a>
+      </article>
+      <!-- Industrial -->
+      <article class="service-card reveal reveal-delay-1">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        </div>
+        <h3>Industrial IoT</h3>
+        <p>Machine health monitoring, production line tracking, predictive maintenance, and environmental compliance for manufacturing facilities.</p>
+        <a href="services.html#industrial" class="service-card__link">Learn more →</a>
+      </article>
+      <!-- Smart Buildings -->
+      <article class="service-card reveal reveal-delay-2">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <h3>Smart Buildings</h3>
+        <p>Access control, HVAC automation, water tank monitoring, fire detection, and facility management dashboards for commercial properties.</p>
+        <a href="services.html#buildings" class="service-card__link">Learn more →</a>
+      </article>
+      <!-- Healthcare -->
+      <article class="service-card reveal reveal-delay-3">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <h3>Healthcare IoT</h3>
+        <p>Vaccine cold chain monitoring, medical equipment tracking, pharmacy refrigeration alerts, and remote health facility surveillance.</p>
+        <a href="services.html#healthcare" class="service-card__link">Learn more →</a>
+      </article>
+      <!-- Logistics -->
+      <article class="service-card reveal reveal-delay-1">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3>Logistics &amp; Supply Chain</h3>
+        <p>Asset and cargo tracking, cold chain temperature logging, last-mile delivery visibility, and warehouse sensor networks.</p>
+        <a href="services.html#logistics" class="service-card__link">Learn more →</a>
+      </article>
+      <!-- Water -->
+      <article class="service-card reveal reveal-delay-2">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+        </div>
+        <h3>Water &amp; Environment</h3>
+        <p>Borehole monitoring, water quality sensors, flood early warning systems, air quality networks, and waste management tracking.</p>
+        <a href="services.html#water" class="service-card__link">Learn more →</a>
+      </article>
+      <!-- Custom Platform -->
+      <article class="service-card reveal reveal-delay-3">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <h3>Custom Platform Dev</h3>
+        <p>White-label IoT dashboards, mobile apps, API pipelines, cloud infrastructure, and legacy system integration — built to your specification.</p>
+        <a href="services.html#platform" class="service-card__link">Learn more →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ── STATS ───────────────────────────────────────────────────── -->
+<section class="stats" aria-label="Company statistics">
+  <div class="container">
+    <div class="stats__grid">
+      <div class="reveal">
+        <div class="stat__number" data-count="500" data-suffix="+">0</div>
+        <div class="stat__label">Devices Deployed</div>
+      </div>
+      <div class="reveal reveal-delay-1">
+        <div class="stat__number" data-count="5">0</div>
+        <div class="stat__label">Countries Active</div>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <div class="stat__number" data-count="50" data-suffix="+">0</div>
+        <div class="stat__label">Enterprise Clients</div>
+      </div>
+      <div class="reveal reveal-delay-3">
+        <div class="stat__number" data-count="99" data-suffix=".7%">0</div>
+        <div class="stat__label">Platform Uptime</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── HOW IT WORKS ────────────────────────────────────────────── -->
+<section aria-labelledby="process-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="tag">Our Process</span>
+      <h2 class="h2" id="process-heading">From Concept to Connected in 4 Steps</h2>
+      <p>A structured, low-risk deployment process refined across dozens of enterprise projects.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-step reveal reveal-delay-1">
+        <div class="timeline-step__num" aria-hidden="true">1</div>
+        <h4>Discovery &amp; Design</h4>
+        <p>We audit your current operations, identify IoT opportunities, and design a solution architecture tailored to your environment and budget.</p>
+      </div>
+      <div class="timeline-step reveal reveal-delay-2">
+        <div class="timeline-step__num timeline-step__num--teal" aria-hidden="true">2</div>
+        <h4>Build &amp; Configure</h4>
+        <p>Hardware selection, sensor installation, cloud infrastructure setup, and custom dashboard development — handled end-to-end by our team.</p>
+      </div>
+      <div class="timeline-step reveal reveal-delay-3">
+        <div class="timeline-step__num" aria-hidden="true">3</div>
+        <h4>Deploy &amp; Train</h4>
+        <p>On-site deployment across your facilities, staff training, and a comprehensive testing period before full go-live.</p>
+      </div>
+      <div class="timeline-step reveal reveal-delay-4">
+        <div class="timeline-step__num timeline-step__num--teal" aria-hidden="true">4</div>
+        <h4>Monitor &amp; Optimise</h4>
+        <p>24/7 remote monitoring, proactive alerts, regular performance reviews, and continuous optimisation to maximise your ROI.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CASE STUDIES ────────────────────────────────────────────── -->
+<section style="background:var(--surface)" aria-labelledby="cases-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="tag">Case Studies</span>
+      <h2 class="h2" id="cases-heading">Real Results Across East Africa</h2>
+      <p>From Nairobi boardrooms to rural boreholes — our solutions are delivering measurable impact.</p>
+    </div>
+    <div class="grid grid-3">
+      <!-- Case 1 -->
+      <article class="case-card reveal reveal-delay-1">
+        <div class="case-card__head">
+          <span class="case-card__badge case-card__badge--fleet">Fleet Telematics</span>
+          <div class="case-icon" style="background:rgba(37,99,235,.1)" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+        </div>
+        <div class="case-card__body">
+          <h3>Nairobi Logistics Group</h3>
+          <p>Deployed a real-time telematics platform across a 120-vehicle fleet, integrating GPS tracking, fuel monitoring, and driver behaviour scoring to cut operational costs.</p>
+          <div class="case-card__metrics">
+            <div class="metric"><div class="metric__val">23%</div><div class="metric__key">Fuel Saved</div></div>
+            <div class="metric"><div class="metric__val">120</div><div class="metric__key">Vehicles</div></div>
+            <div class="metric"><div class="metric__val">4mo</div><div class="metric__key">ROI</div></div>
+          </div>
+        </div>
+      </article>
+      <!-- Case 2 -->
+      <article class="case-card reveal reveal-delay-2">
+        <div class="case-card__head">
+          <span class="case-card__badge case-card__badge--cold">Cold Chain</span>
+          <div class="case-icon" style="background:rgba(14,165,164,.1)" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0EA5A4" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+        </div>
+        <div class="case-card__body">
+          <h3>East Africa Pharma</h3>
+          <p>End-to-end cold chain monitoring for vaccine distribution across 200 clinics in Uganda and Kenya, with automated SMS alerts when temperature thresholds are breached.</p>
+          <div class="case-card__metrics">
+            <div class="metric"><div class="metric__val">200</div><div class="metric__key">Clinics</div></div>
+            <div class="metric"><div class="metric__val">0</div><div class="metric__key">Cold Failures</div></div>
+            <div class="metric"><div class="metric__val">99%</div><div class="metric__key">Compliance</div></div>
+          </div>
+        </div>
+      </article>
+      <!-- Case 3 -->
+      <article class="case-card reveal reveal-delay-3">
+        <div class="case-card__head">
+          <span class="case-card__badge case-card__badge--agri">AgriTech</span>
+          <div class="case-icon" style="background:rgba(5,150,105,.1)" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M12 22V12m0 0C12 7 7 4 2 4c0 5 3 9 10 8m0 0c0-5 5-8 10-8-1 5-4 9-10 8"/></svg>
+          </div>
+        </div>
+        <div class="case-card__body">
+          <h3>Kericho Tea Estates</h3>
+          <p>Precision agriculture IoT deployed across 2,400 acres of tea plantation — soil moisture sensors, automated irrigation, and weather station network driving significant water savings.</p>
+          <div class="case-card__metrics">
+            <div class="metric"><div class="metric__val">31%</div><div class="metric__key">Water Saved</div></div>
+            <div class="metric"><div class="metric__val">2,400</div><div class="metric__key">Acres</div></div>
+            <div class="metric"><div class="metric__val">18%</div><div class="metric__key">Yield Up</div></div>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="text-center mt-6 reveal">
+      <a href="case-studies.html" class="btn btn--outline-blue">View All Case Studies →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ────────────────────────────────────────────── -->
+<section class="testimonials" aria-labelledby="testimonials-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="tag">Client Feedback</span>
+      <h2 class="h2" id="testimonials-heading">What Our Clients Say</h2>
+    </div>
+    <div class="testimonial-track">
+      <blockquote class="testimonial-card reveal reveal-delay-1">
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="testimonial-text">"The fleet telematics platform transformed our operations overnight. We now know exactly where every vehicle is, how it's being driven, and what it's consuming. The ROI within 4 months was remarkable."</p>
+        <footer class="testimonial-author">
+          <div class="author-avatar" aria-hidden="true">JM</div>
+          <div>
+            <div class="author-name">James Mutua</div>
+            <div class="author-role">Operations Director, Nairobi Logistics Group</div>
+          </div>
+        </footer>
+      </blockquote>
+      <blockquote class="testimonial-card reveal reveal-delay-2">
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="testimonial-text">"Cold chain failures used to cost us stock every quarter. Since deploying Intelligent IoT's monitoring system across our distribution network, we've had zero temperature excursions. Our regulatory compliance rate is now 99%."</p>
+        <footer class="testimonial-author">
+          <div class="author-avatar" aria-hidden="true">AO</div>
+          <div>
+            <div class="author-name">Amina Odhiambo</div>
+            <div class="author-role">Supply Chain Manager, East Africa Pharma</div>
+          </div>
+        </footer>
+      </blockquote>
+      <blockquote class="testimonial-card reveal reveal-delay-3">
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="testimonial-text">"The precision agriculture dashboard gave our agronomists real-time data they never had access to before. Water usage down by a third, and our tea quality scores have improved. This is the future of farming in Africa."</p>
+        <footer class="testimonial-author">
+          <div class="author-avatar" aria-hidden="true">PK</div>
+          <div>
+            <div class="author-name">Peter Kamau</div>
+            <div class="author-role">Head of Agronomy, Kericho Tea Estates</div>
+          </div>
+        </footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA BAND ────────────────────────────────────────────────── -->
+<section class="cta-band" aria-labelledby="cta-heading">
+  <div class="container">
+    <h2 id="cta-heading">Ready to Connect Your Operations?</h2>
+    <p>Join 50+ East African enterprises that trust Intelligent IoT to power their digital transformation.</p>
+    <div class="cta-band__actions">
+      <a href="demo.html" class="btn btn--teal btn--lg" data-demo>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        Request a Demo
+      </a>
+      <a href="contact.html" class="btn btn--outline btn--lg">Contact Sales</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── NEWSLETTER ──────────────────────────────────────────────── -->
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter__inner reveal">
+      <div class="newsletter__text">
+        <h3>IoT Insights for East Africa</h3>
+        <p>Monthly briefings on IoT trends, case studies, and platform updates.</p>
+      </div>
+      <form class="newsletter__form" aria-label="Newsletter signup">
+        <input class="newsletter__input" type="email" placeholder="Your work email" required aria-label="Email address">
+        <button type="submit" class="btn btn--primary">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────────────────── -->
+<footer class="footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo" aria-label="Intelligent IoT home">
+          <img src="assets/images/logo.svg" alt="" width="32" height="32" aria-hidden="true">
+          <span class="footer__logo-text">Intelligent <span>IoT</span></span>
+        </a>
+        <p class="footer__desc">Enterprise IoT solutions built for Africa's most ambitious organisations. Connecting things. Creating intelligence.</p>
+        <div class="footer__contact">
+          <a href="mailto:info@intelligenceiot.com">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            info@intelligenceiot.com
+          </a>
+          <a href="tel:+254727062211">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.48 2 2 0 0 1 3.58 1.27h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.09A16 16 0 0 0 14 15.15l1.18-1.18a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            +254 727 062 211
+          </a>
+          <a href="#" aria-label="Location">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Nairobi, Kenya
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Solutions</h4>
+        <a href="services.html#fleet" class="footer__link">Fleet Telematics</a>
+        <a href="services.html#agriculture" class="footer__link">Agriculture IoT</a>
+        <a href="services.html#energy" class="footer__link">Energy &amp; Utilities</a>
+        <a href="services.html#industrial" class="footer__link">Industrial IoT</a>
+        <a href="services.html#buildings" class="footer__link">Smart Buildings</a>
+        <a href="services.html#healthcare" class="footer__link">Healthcare IoT</a>
+      </div>
+      <div>
+        <h4 class="footer__heading">Company</h4>
+        <a href="about.html" class="footer__link">About Us</a>
+        <a href="case-studies.html" class="footer__link">Case Studies</a>
+        <a href="pricing.html" class="footer__link">Pricing</a>
+        <a href="blog.html" class="footer__link">Insights</a>
+        <a href="contact.html" class="footer__link">Contact</a>
+        <a href="demo.html" class="footer__link">Request Demo</a>
+      </div>
+      <div>
+        <h4 class="footer__heading">Platform</h4>
+        <a href="http://84.247.133.39:5173" target="_blank" rel="noopener" class="footer__link">Client Portal</a>
+        <a href="demo.html" class="footer__link">Live Demo</a>
+        <a href="pricing.html" class="footer__link">Plans &amp; Pricing</a>
+        <a href="privacy.html" class="footer__link">Privacy Policy</a>
+        <a href="contact.html" class="footer__link">Support</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2025 Intelligent IoT. All rights reserved. · Kenya</p>
+      <div class="footer__social" aria-label="Social media links">
+        <!-- LinkedIn placeholder -->
+        <a href="#" aria-label="LinkedIn" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter / X" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://wa.me/254727062211" aria-label="WhatsApp" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ── FLOATING ELEMENTS ───────────────────────────────────────── -->
+<a href="https://wa.me/254727062211" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<a href="#" class="demo-float" id="demo-float" aria-label="Try the live demo">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+  Try Demo
+</a>
+
+<!-- ── DEMO MODAL ──────────────────────────────────────────────── -->
+<div class="modal-overlay" id="demo-overlay" role="dialog" aria-modal="true" aria-labelledby="demo-modal-title">
+  <div class="modal">
+    <button class="modal__close" id="demo-close" aria-label="Close modal">✕</button>
+    <span class="tag">Live Platform</span>
+    <h3 id="demo-modal-title">Access the Live Demo</h3>
+    <p>Enter your details and we'll redirect you to the live platform instantly. No credit card required.</p>
+    <form id="demo-form">
+      <div class="form-group">
+        <label class="form-label" for="dm-name">Full Name *</label>
+        <input class="form-input" id="dm-name" name="name" type="text" placeholder="Jane Kamau" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="dm-email">Work Email *</label>
+        <input class="form-input" id="dm-email" name="email" type="email" placeholder="jane@company.com" required>
+      </div>
+      <button type="submit" class="btn btn--primary w-full mt-4" style="justify-content:center">
+        Access Demo
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- ── COOKIE BANNER ───────────────────────────────────────────── -->
+<div class="cookie" id="cookie-banner" role="dialog" aria-label="Cookie consent">
+  <div class="cookie__inner">
+    <p>We use cookies to improve your experience and analyse site usage. See our <a href="privacy.html">Privacy Policy</a>.</p>
+    <div class="cookie__actions">
+      <button class="cookie__accept" id="cookie-accept">Accept</button>
+      <button class="cookie__decline" id="cookie-decline">Decline</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
